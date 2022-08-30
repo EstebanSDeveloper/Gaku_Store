@@ -1109,6 +1109,14 @@ nav {
   font-weight: 400;
 }
 
+.letra-card2{
+  color: #e9e2c4;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
 .font-collections{
   background-color: #000000;
   font-family: "Nunito", sans-serif;

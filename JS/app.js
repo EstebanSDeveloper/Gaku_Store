@@ -183,6 +183,26 @@ const accionBotones = () => {
 
 // cosas 
 
+// TOASTIFY
+
+function clickAdd() {
+    Toastify({
+       text: "Agregado al carrito",
+       duration: 3000,
+       gravity: 'bottom',
+       position: 'right',
+       style: {
+           background: '#e9e2c4',
+           color: '#000000',
+           border: '10px',     
+          },
+       // para poner una clase de css
+       className: 'card-button',
+       
+ 
+   }).showToast();
+ }
+
 
 
 
