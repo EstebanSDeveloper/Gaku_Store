@@ -178,6 +178,7 @@ header ul li {
   margin: 2px 6px;
   border-radius: 8px;
   
+  
 }
 
 .position-buttons  button:hover{
@@ -198,15 +199,6 @@ header ul li {
   align-items: center;
   background-color: #000000;
 
-}
-
-.row {
-  background-color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 6rem;
-  height: 100%;
 }
 
 .card {
@@ -1078,6 +1070,64 @@ nav {
     overflow: hidden;
   }
 }
+
+/*-------TOASTIFY-----------*/
+
+.my-toast{
+  font-size: 1.5rem;
+}
+
+.toast-position{
+  position : relative;
+  top : 50%;
+
+}
+
+.row{
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  height: 100%;
+}
+
+.container-collections{
+  position: relative;
+  top: 10rem;
+  margin-bottom: 13rem;
+  width: 100vw;
+}
+
+.card{
+  background-color: #000000;
+}
+
+.letra-card{
+  color: #e9e2c4;
+  font-size: 1.7rem;
+  margin-bottom: 3rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+}
+
+.font-collections{
+  background-color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.7rem;
+}
+
+.card-img-top{
+width: 60%;
+
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  height: 20rem;
+
+}
+
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
