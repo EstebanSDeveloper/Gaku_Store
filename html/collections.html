@@ -95,7 +95,7 @@
                 <div class="card-body">
                 <h5 class="card-title">Lo que sea</h5>
                 <p class="card-text">$ <span>5000</span></p>
-                <button class="btn btn-dark" onclick="clickAdd()">Comprar</button>
+                <button class="btn btn-dark" onclick="clickAdd()">Add to cart</button>
                 </div>
             </div>
         </div>
@@ -104,21 +104,21 @@
     <!-- CARRITO DE COMPRAS -->
 
     <div class="my-5 container">
-        <h4 class="letra-card2 text-center">Carro de compra</h4>
+        <h4 class="letra-card2 text-center">Cart</h4>
         <table class="table">
             <thead>
                 <tr>
                     <th class="letra-card" scope="col">#</th>
                     <th class="letra-card" scope="col">Item</th>
-                    <th class="letra-card" scope="col">Cantidad</th>
-                    <th class="letra-card" scope="col">Acción</th>
+                    <th class="letra-card" scope="col">Quantity</th>
+                    <th class="letra-card" scope="col">Action</th>
                     <th class="letra-card" scope="col">Total</th>
                 </tr>
             </thead>
             <tbody id="items"></tbody>
             <tfoot>
                 <tr id="footer-carrito">
-                    <th class="letra-card text-center" scope="row" colspan="5" > Carrito vacio comience a comprar!</th>
+                    <th class="letra-card text-center" scope="row" colspan="5" >Empty cart, start buying!</th>
                 </tr>
             </tfoot>
         </table>
@@ -130,11 +130,11 @@
     <!-- TEMPLATE FOOTER  cantidad de productos, precio y reiniciar carrito -->
 
     <template id="template-footer">
-        <th class="letra-card" scope="row" colspan="2">Total productos</th>
+        <th class="letra-card" scope="row" colspan="2">Total products</th>
         <td class="letra-card">10</td>
         <td>
             <button  class="btn btn-danger btn-sm border-dark"" id="vaciar-carrito">
-                vaciar todo
+                Empty cart
             </button>
         </td>
         <td class="letra-card" class="font-weight-bold">$ <span class="letra-card">5000</span></td>

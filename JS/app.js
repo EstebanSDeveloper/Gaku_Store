@@ -108,7 +108,7 @@ const pintarFooter = () => {
 
     // Para cambiar el mensaje del carrito si ya habia puesto objetos y los elimino y queda vacio, toca con el Object.keys carrito porque lo vuelve un array y el .lenght solo funciona con arrays
     if (Object.keys(carrito).length === 0) {
-        footer.innerHTML = `<th scope="row" colspan="5" class="letra-card text-center" > Vuelve a agregar productos para comprar</th>`
+        footer.innerHTML = `<th scope="row" colspan="5" class="letra-card text-center" > Add products again to buy!</th>`
 
         return
     }
@@ -187,7 +187,7 @@ const accionBotones = () => {
 
 function clickAdd() {
     Toastify({
-       text: "Agregado al carrito",
+       text: "Added to your cart",
        duration: 3000,
        gravity: 'bottom',
        position: 'right',
